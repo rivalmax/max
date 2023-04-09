@@ -1,0 +1,125 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+div {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+.header {
+    background-color: rgb(43, 43, 43);
+    color: white;
+    height: 90px;
+}
+
+.header-logo {
+    float: left;
+    font-size: 36px;
+    padding: 20px 40px;
+
+}
+
+.header-list li {
+    float: left;
+    color: white;
+    padding: 33px 20px;
+}
+
+  .copy-container h1 {
+    font-size: 80px;
+  }
+  
+  .copy-container h2 {
+    font-weight: lighter;
+    font-size: 50px;
+  }
+  
+  .copy-container span {
+    color: yellow;
+  }
+
+  .copy-container-2 {
+    background-color: rgb(202, 202, 202);
+    padding: 20px 40px;
+  }
+
+  .copy-container-2 h1 {
+    font-size: 50px;
+    color: black;
+  }
+
+  .copy-container-2 p {
+    font-weight: lighter;
+    font-size: 20px;
+    padding: 80px 100px;
+  }
+
+  .image-main h1 {
+    font-size: 50px;
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-container img {
+    width: 30%;
+    padding: 33px 33px;
+  }
+
+  .contact-form {
+    font-size: 30px;
+    background-color: rgb(202, 202, 202) ;
+    padding-top: 100px;
+    padding-bottom: 250px;
+  }
+
+  input, textarea {
+    font-weight: lighter;
+    width: 50%;
+    margin: 10px 0 10px 0;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+    border-radius: 10px;
+  }
+
+  .contact-submit {
+    background-color: orange;
+    color: black;
+    width: 300px;
+  }
+
+.footer {
+    background-color: grey;
+    color: white;
+    height: 120px;
+    padding: 40px 40px 40px 40px;
+    
+  }
+  
+  .footer-logo {
+    font-size: 32px;
+    float: left;
+  }
+  
+  .footer-list {
+    padding-bottom: 20px;
+    float: right;
+  }
+  
+  .footer-list li {
+    padding-bottom: 20px;
+    color: white;
+  }
